@@ -1,0 +1,17 @@
+name: foo-b
+version: 0.0.0.1
+
+library:
+  source-dirs: src
+
+dependencies:
+  - base
+
+tests:
+
+  doctest:
+    source-dirs: test
+    main: test.hs
+    dependencies:
+      - base
+      - foo-a
